@@ -27,47 +27,36 @@ It uses **time-series models (Prophet, SARIMA, XGBoost)** and **ensemble forecas
 FUTURE_ML_01/
 │
 ├── dataset/
-│ ├── sample - Superstore.csv # Raw monthly sales data
-│ 
+│ └── sample - Superstore.csv # Raw monthly sales data
 │
 ├── notebooks/
-│ ├── ai_powered_salesforecasting.ipynb  # Kaggle notebook with model training & analysis
+│ └── ai_powered_salesforecasting.ipynb # Kaggle notebook with model training & analysis
 │
 ├── dashboard/
-│ ├── salesforecast.pbix # Power BI dashboard
+│ └── salesforecast.pbix # Power BI dashboard
 │
 ├── README.md # Project documentation
 └── requirements.txt # Python dependencies
 
+
 ---
 
 ## ⚙️ How to Run
-# Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ai-sales-forecasting.git
-   cd ai-sales-forecasting
-Install dependencies:
 
-bash
-Copy code
+## 1️⃣ Clone the repository:
+```bash
+git clone https://github.com/your-username/ai-sales-forecasting.git
+cd ai-sales-forecasting
+```
+## 2️⃣ Install dependencies:
+```bash
 pip install -r requirements.txt
-Open the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook notebooks/forecasting.ipynb
-
-# requirements.txt :
-```txt
-pandas
-numpy
-matplotlib
-prophet
-statsmodels
-xgboost
-scikit-learn
-Run all cells to:
-
+```
+## 3️⃣ Open the Jupyter Notebook:
+```bash
+jupyter notebook notebooks/ai_powered_salesforecasting.ipynb
+```
+## 4️⃣ Run all cells to:
 Preprocess sales data
 
 Train Prophet, SARIMA, XGBoost models
@@ -76,36 +65,46 @@ Generate ensemble forecast
 
 Export forecast CSVs
 
----
+📦 requirements.txt
+```txt
+Copy code
+pandas
+numpy
+matplotlib
+prophet
+statsmodels
+xgboost
+scikit-learn
+```
 
 ## 📊 Power BI Dashboard
-Open dashboard/sales_forecast.pbix in Power BI Desktop.
+Open dashboard/salesforecast.pbix in Power BI Desktop.
 
-Connect to data/monthly_sales.csv & data/ensemble_forecast.csv.
+Connect to:
 
-Explore:
+dataset/monthly_sales.csv
 
-- Actual vs Forecast line chart
+dataset/ensemble_forecast.csv
 
-- Regional/Category filters
+Explore visuals:
 
-- Insight cards (growth %, top sellers, seasonality)
+📈 Actual vs Forecast line chart
 
----
+🌍 Regional / Category filters
 
-## 🔮 Insights from the Model
+🧾 Insight cards (growth %, top sellers, seasonality)
 
-- Forecast shows seasonal peaks around March & November.
+🔮 Insights from the Model
+Forecast shows seasonal peaks around March & November.
 
-- Top-selling items drive >40% of revenue.
+Top-selling items drive >40% of revenue.
 
-- Low season observed in Q2 (April–June).
+Low season observed in Q2 (April–June).
 
-- Ensemble forecast reduces variance vs individual models.
-
----
+Ensemble forecast reduces variance vs individual models.
 
 ## 🧑‍💻 Author
-
 Borra Pujith Ganesh – FUTURE INTERNS - Machine Learning
 📧 Contact: pujithganesh18@gmail.com
+
+
