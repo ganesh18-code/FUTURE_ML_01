@@ -47,6 +47,7 @@ FUTURE_ML_01/
 ├── Power_BI Dashboard image.png  # Screenshot of Power BI Dashboard
 |
 ├── README.md # Project documentation
+|
 └── requirements.txt # Python dependencies
 
 ```
