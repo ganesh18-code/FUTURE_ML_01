@@ -55,26 +55,26 @@ FUTURE_ML_01/
 
 ## ⚙️ How to Run
 
-# 1️⃣ Clone the repository:
+### 1️⃣ Clone the repository:
 
 ```bash
 git clone https://github.com/ganesh18-code/FUTURE_ML_01.git
 cd FUTURE_ML_01
 ```
 
-# 2️⃣ Install dependencies:
+### 2️⃣ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 3️⃣ Open the Jupyter Notebook:
+### 3️⃣ Open the Jupyter Notebook:
 
 ```bash
 jupyter notebook notebooks/ai-powered-salesforecasting.ipynb
 ```
 
-# 4️⃣ Run All Cells
+### 4️⃣ Run All Cells
 
 This will:
 
@@ -86,7 +86,7 @@ This will:
 
 - Export results as CSVs
 
-## 📦 requirements.txt
+### 📦 requirements.txt
 
 ```txt
 Copy code
@@ -105,11 +105,11 @@ scikit-learn
 
 Open dashboard/salesforecast.pbix in Power BI Desktop.
 
-# Connect to:
+### Connect to:
 
 - Dataset/Sample - Superstore.csv
 
-# Explore visuals:
+### Explore visuals:
 
 - 📈 Actual vs Forecast line chart
 
@@ -117,7 +117,7 @@ Open dashboard/salesforecast.pbix in Power BI Desktop.
 
 - 🧾 Insight cards (growth %, top sellers, seasonality)
 
-# 🔮 Insights from the Model
+### 🔮 Insights from the Model
 
 Forecast shows seasonal peaks around March & November.
 
@@ -133,4 +133,4 @@ Ensemble forecast reduces variance vs individual models.
 
 Borra Pujith Ganesh – FUTURE INTERNS [ Machine Learning ]
 
-📧 Contact: pujithganesh18@gmail.com
+📧 Email: pujithganesh18@gmail.com
